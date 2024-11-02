@@ -7,7 +7,7 @@ import Home from "./Home.jsx";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Text-Stylizer-App/">
         <Routes>
           <Route path="/" element={<TextStylizer />}>
             <Route index element={<Home />} />
