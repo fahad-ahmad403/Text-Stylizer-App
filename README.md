@@ -1,2 +1,2 @@
-# Text-Stylizer-App
+# Text-Stylizer
  

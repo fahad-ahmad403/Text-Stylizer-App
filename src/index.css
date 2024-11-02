@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply transition-colors duration-200
+}
+
+.light {
+    --bgc: 209, 213, 219;
+    --tc: 0, 0, 0;
+    --bbc: 0, 0, 0;
+    --btc: 255, 255, 255;
+    --ic: 209, 213, 219;
+    --secBtc: 156, 163, 175;
+    --cbg: 255, 255, 255;
+}
+
+.dark {
+    --bgc: 47, 47, 47;
+    --tc: 255, 255, 255;
+    --bbc: 255, 255, 255;
+    --btc: 0, 0, 0;
+    --ic: 110, 110, 110;
+    --secBtc: 250, 250, 250;
+    --cbg: 0, 0, 0;
+}
