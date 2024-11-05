@@ -48,7 +48,7 @@ function Home() {
           onClick={smallHandle}
           className="font-semibold rounded w-32 h-10 bg-buttonBg text-buttonText mr-3"
         >
-          To Lower Case
+          to lower case
         </button>
         <button
           onClick={clearHandle}
