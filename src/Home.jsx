@@ -101,7 +101,7 @@ function Home({ setIsOpen }) {
       className="flex flex-col items-center bg-containerBg min-h-screen"
     >
       <h1 className="font-semibold text-center mx-5 sm:text-4xl xs:text-xl py-10 text-textColor">
-        Simplify, Edit, and Perfect Your Text in Seconds!
+        🚀 Simplify, Edit, and Perfect Your Text in Seconds!
       </h1>
       <textarea
         onChange={changeHandle}
